@@ -1,0 +1,27 @@
+[
+    {
+        "customerId": 9000,
+        "productId": 5,
+        "isValid":true,
+        "metaInfo":null
+    },
+    {
+        "customerId": 9001,
+        "productId": 4,
+        "isValid":true,
+        "metaInfo":{
+            "categoryId":998,
+            "kwords":"dupa,dupowina"
+        }
+        
+    },
+    {
+        "customerId": 9002,
+        "productId": 3,
+        "isValid":false,   
+        "metaInfo":{
+            "categoryId": 904,
+            "kwords":"kuba,kazik"
+        }
+    }
+]

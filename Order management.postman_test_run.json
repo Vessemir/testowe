@@ -1,0 +1,148 @@
+{
+	"id": "d8991a76-200c-4c79-bc05-502ab10ede9f",
+	"name": "Order management",
+	"timestamp": "2022-08-29T18:15:08.698Z",
+	"collection_id": "21045339-aa4c374a-658e-422a-8a70-407d37aeae19",
+	"folder_id": 0,
+	"environment_id": "21045339-50ce81ce-79fe-420c-b787-53c0ca3a0f1a",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "66e44301-72f1-4480-9acc-97be3b845a73",
+			"name": "Generate reference",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should contain reference id": true
+			},
+			"testPassFailCounts": {
+				"Should contain reference id": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1712,
+				124,
+				135
+			],
+			"allTests": [
+				{
+					"Should contain reference id": true
+				},
+				{
+					"Should contain reference id": true
+				},
+				{
+					"Should contain reference id": true
+				}
+			]
+		},
+		{
+			"id": "c9cd09ed-d05b-4b26-a068-97051e048460",
+			"name": "Create order",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should contain the reference id": true,
+				"Should contain the customer id": true,
+				"Should contain the product id": true
+			},
+			"testPassFailCounts": {
+				"Should contain the reference id": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Should contain the customer id": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Should contain the product id": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				123,
+				124,
+				127
+			],
+			"allTests": [
+				{
+					"Should contain the reference id": true,
+					"Should contain the customer id": true,
+					"Should contain the product id": true
+				},
+				{
+					"Should contain the reference id": true,
+					"Should contain the customer id": true,
+					"Should contain the product id": true
+				},
+				{
+					"Should contain the reference id": true,
+					"Should contain the customer id": true,
+					"Should contain the product id": true
+				}
+			]
+		},
+		{
+			"id": "078adad6-9d17-4582-b5cd-a27df28f84f4",
+			"name": "Check status",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				120,
+				435,
+				123
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 3023,
+	"collection": {
+		"requests": [
+			{
+				"id": "66e44301-72f1-4480-9acc-97be3b845a73",
+				"method": "GET"
+			},
+			{
+				"id": "c9cd09ed-d05b-4b26-a068-97051e048460",
+				"method": "POST"
+			},
+			{
+				"id": "078adad6-9d17-4582-b5cd-a27df28f84f4",
+				"method": "GET"
+			}
+		]
+	}
+}
